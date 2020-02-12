@@ -19,7 +19,8 @@ h2{
 }
 
 p {
-  padding: 0 30px;
+	display: flex;
+	padding: 0 30px;
 }
 
 a.skip{
@@ -53,22 +54,29 @@ footer{
 /*
 Keyframes for animation*/
 
-@-webkit-keyframes logo_wiggle{
+@-webkit-keyframes logowiggle{
 
 }
 
-@keyframes logo_wiggle{
+@keyframes logowiggle{
+	from {width: 25px; }
+	to {width:420px; }
 
-} 
+}
 
 #logo{
-  
+	animation-duration: 3s;
+ 	animation-name: logowiggle;
+ 	display:block;
+ 	margin-left: auto;
+ 	margin-right: auto;
 }
 
 /* Cards! */
 .pricing{
     min-height: 500px;
-  
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -133,7 +141,7 @@ Keyframes for animation*/
 
 /* Navbar */
 header{
-  
+  text-align: center;
   background: #fff;
   border-bottom: 3px solid #50C7C7;
 }
