@@ -67,24 +67,25 @@ Keyframes for animation*/
 #logo{
 	animation-duration: 3s;
  	animation-name: logowiggle;
- 	display:block;
+ 	display: block;
  	margin-left: auto;
  	margin-right: auto;
 }
 
 /* Cards! */
 .pricing{
+	width: 500px;
     min-height: 500px;
     justify-content: center;
     align-items: center;
 }
 
 .card {
-  
   margin: 12px;
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
+  flex: 0 0 400px;
 }
 
 .card > header{
@@ -129,14 +130,16 @@ Keyframes for animation*/
 /* Gallery! */
 
 .gallery{
-  
+  justify-content: center;
   min-height: 600px;
 }
 
 .gallery > img{
+
   border: 10px #50C7C7 solid;
   margin: 10px;
   width: 300px;
+
 }
 
 /* Navbar */
@@ -147,7 +150,6 @@ header{
 }
 
 .nav_links{
- 
   list-style: none;
 }
 
@@ -178,7 +180,6 @@ header{
   /* Navbar */
 
   header{
-    
   }
 
   .nav_links{
