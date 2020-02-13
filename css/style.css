@@ -211,6 +211,11 @@ header{
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  #logo {
+    animation: none;
+  }
+
 @media print { 
   
   .card {
