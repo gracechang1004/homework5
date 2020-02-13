@@ -217,9 +217,24 @@ header{
   }
 
 @media print { 
-  
+
+  body{
+    background-image: none;
+  }
+
   .card {
     flex-basis: 200px;
   }
 
+  .pricing{
+    display: flex;
+    min-height: 500px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .gallery{
+    display: none;
+  }
 }
