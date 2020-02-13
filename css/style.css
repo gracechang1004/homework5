@@ -72,9 +72,9 @@ Keyframes for animation*/
 /* Cards! */
 .pricing{
 	display:flex;
-    min-height: 500px;
-    justify-content: center;
-    align-items: center;
+  min-height: 500px;
+  justify-content: center;
+  align-items: center;
 	flex-wrap: wrap;
 }
 
@@ -227,14 +227,14 @@ header{
   }
 
   .pricing{
-    display: flex;
-    min-height: 500px;
-    justify-content: center;
     align-items: flex-start;
-    flex-wrap: wrap;
   }
 
   .gallery{
+    display: none;
+  }
+
+  #gallery{
     display: none;
   }
 }
