@@ -180,7 +180,7 @@ header{
     flex-wrap: wrap;
     flex: 0 0 220px;
     align-items: center;
-    justify-content: center
+    justify-content: center;
   }
 
   .card_big{
@@ -191,11 +191,20 @@ header{
   /* Navbar */
 
   header{
-  	justify-content: space-around;
+  	display:flex;
+  	justify-content: space-between;
+    align-items: center;
+  }
+
+  header img{
+  	display:flex;
+  	justify-content: right;
   }
 
   .nav_links{
-  	justify-content: space-between;
+  	display: flex;
+  	justify-content: right;
+  	flex-direction: row;
 
   }
 
