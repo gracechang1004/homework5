@@ -216,7 +216,7 @@ header{
     animation: none;
   }
 
-@media print { 
+@media print {
 
   body{
     background-image: none;
