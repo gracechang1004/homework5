@@ -54,7 +54,8 @@ footer{
 Keyframes for animation*/
 
 @-webkit-keyframes logowiggle{
-
+	from {width: 25px; }
+	to {width:420px; }
 }
 
 @keyframes logowiggle{
@@ -66,7 +67,6 @@ Keyframes for animation*/
 #logo{
 	animation-duration: 3s;
  	animation-name: logowiggle;
- 	display: block;
 }
 
 /* Cards! */
@@ -76,7 +76,6 @@ Keyframes for animation*/
     justify-content: center;
     align-items: center;
 	flex-wrap: wrap;
-	padding: 1.5%;
 }
 
 .card {
@@ -148,10 +147,13 @@ Keyframes for animation*/
 
 /* Navbar */
 header{
-  text-align: center;
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  display:flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .nav_links{
