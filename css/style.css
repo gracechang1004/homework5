@@ -87,7 +87,7 @@ Keyframes for animation*/
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
-  flex: 0 0 500px;
+  flex: 0 0 400px;
 
 }
 
@@ -157,7 +157,8 @@ header{
 }
 
 .nav_links{
-  list-style: none;
+	flex-wrap: wrap;
+	list-style: none;
 }
 
 .nav_item a{
@@ -177,7 +178,7 @@ header{
   /* Cards! */
   .card {
     flex-wrap: wrap;
-    flex: 0 0 250px;
+    flex: 0 0 220px;
     align-items: center;
     justify-content: center
   }
@@ -190,10 +191,12 @@ header{
   /* Navbar */
 
   header{
+  	justify-content: space-around;
   }
 
   .nav_links{
-    
+  	justify-content: space-between;
+
   }
 
   .nav_item a{
