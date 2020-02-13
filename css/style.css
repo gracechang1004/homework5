@@ -65,8 +65,16 @@ Keyframes for animation*/
 }
 
 #logo{
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: logowiggle;
 	animation-duration: 3s;
  	animation-name: logowiggle;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #logo {
+    animation: none;
+  }
 }
 
 /* Cards! */
@@ -210,11 +218,6 @@ header{
     padding: 10px;
   }
 }
-
-@media (prefers-reduced-motion: reduce) {
-  #logo {
-    animation: none;
-  }
 
 @media print {
 
