@@ -4,7 +4,6 @@ body{
   padding: 0;
   font-size: 16pt; /* test for this! Make all sizes em or rem */
   background-image: url('../images/concrete_seamless.png');
-
 }
 
 h1{
@@ -68,8 +67,6 @@ Keyframes for animation*/
 	animation-duration: 3s;
  	animation-name: logowiggle;
  	display: block;
- 	margin-left: auto;
- 	margin-right: auto;
 }
 
 /* Cards! */
@@ -154,6 +151,7 @@ header{
   text-align: center;
   background: #fff;
   border-bottom: 3px solid #50C7C7;
+  display:flex;
 }
 
 .nav_links{
@@ -193,10 +191,9 @@ header{
   header{
   	display:flex;
     align-items: center;
-  }
+  	flex-direction: row;
+  	justify-content: space-between;
 
-  header img{
-  	display:flex;
   }
 
   .nav_links{
