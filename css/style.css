@@ -192,19 +192,18 @@ header{
 
   header{
   	display:flex;
-  	justify-content: space-between;
     align-items: center;
   }
 
   header img{
   	display:flex;
-  	justify-content: right;
   }
 
   .nav_links{
   	display: flex;
-  	justify-content: right;
   	flex-direction: row;
+  	justify-content: space-between;
+
 
   }
 
