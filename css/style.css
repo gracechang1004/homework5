@@ -178,7 +178,7 @@ header{
   /* Cards! */
   .card {
     flex-wrap: wrap;
-    flex: 0 0 220px;
+    flex: 0 0 250px;
     align-items: center;
     justify-content: center;
   }
