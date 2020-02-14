@@ -71,12 +71,6 @@ Keyframes for animation*/
  	animation-name: logowiggle;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  #logo {
-    animation: none;
-  }
-}
-
 /* Cards! */
 .pricing{
 	display:flex;
@@ -86,14 +80,15 @@ Keyframes for animation*/
 	flex-wrap: wrap;
 }
 
+
 .card {
   margin: 12px;
   background: #fff;
   border-radius: 7px;
   padding: 0 0 50px 0;
   flex: 0 0 400px;
-
 }
+
 
 .card > header{
   background: #288080;
@@ -142,7 +137,6 @@ Keyframes for animation*/
   min-height: 600px;
   flex-wrap: wrap;
   align-items: flex-start;
-
 }
 
 .gallery > img{
@@ -161,7 +155,6 @@ header{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .nav_links{
@@ -203,21 +196,28 @@ header{
     align-items: center;
   	flex-direction: row;
   	justify-content: space-between;
-
   }
+
 
   .nav_links{
   	display: flex;
   	flex-direction: row;
   	justify-content: space-between;
-
-
   }
+
 
   .nav_item a{
     padding: 10px;
   }
 }
+
+
+@media (prefers-reduced-motion: reduce) {
+  #logo {
+    animation: none;
+  }
+}
+
 
 @media print {
 
