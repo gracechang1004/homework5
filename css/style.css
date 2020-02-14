@@ -240,4 +240,10 @@ header{
   #gallery{
     display: none;
   }
+
+  footer {
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+  }
 }
